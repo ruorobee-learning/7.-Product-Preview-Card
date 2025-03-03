@@ -17,6 +17,10 @@
     --White: hsl(0, 0%, 100%);
 }
 
+html {
+    font-size: 16px; /* Default browser setting */
+}
+
 
 body {
     font-family: 'Fraunces', serif;
@@ -76,18 +80,6 @@ body {
     gap: 1.5rem;
 }
 
-.details .tag {
-    color: var(--Grey, #6C7289);
-    font-family: Montserrat;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    /* 14.4px */
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
-
 .details h1 {
     color: var(--Black, #1C232B);
     font-size: 2rem;
@@ -97,14 +89,26 @@ body {
     /* 32px */
 }
 
-.details p {
+.details .description {
     font-family: Montserrat;
     color: var(--Grey, #6C7289);
     font-size: 0.875rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 150%;
     /* 21px */
+}
+
+.tag {
+    color: var(--Grey, #6C7289);
+    font-family: Montserrat;
+    font-size: 0.7rem !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 14.4px */
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 .price {
