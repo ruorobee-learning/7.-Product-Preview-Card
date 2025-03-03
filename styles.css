@@ -79,7 +79,7 @@ body {
 .details .tag {
     color: var(--Grey, #6C7289);
     font-family: Montserrat;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
